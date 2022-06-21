@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+
+<html  lang= "pt-br">
+<head>
+    <meta charset= "utf-8"/>
+    <title> cadastro de Alunos </title>
+<style type="text/css">
+     h1{ background-color: green; color: write; text-align: center; }
+     h2{ background-color: rgb(189, 209, 247); color: rgb(26, 25, 25); text-align: center; }
+     h3{ color: blue;}
+     li{border:3px dashed orange;
+        background-color:gray;
+        color:rgb(24, 23, 23);display:inline;
+        padding-left:50px;padding-right:50px;}
+     .centro{ text-align: center;}
+     input{background-color:rgb(203, 253, 236);padding-left: 30px ;color: rgb(0, 0, 7);}
+     .meio{ color: auto; font-size: 20px; font-weight: bold;}
+     img {float: right;}
+</style>
+    
+    
+</head>
+<body>
+        
+    <a name= "voltar" ></a
+    
+        
+    
+    
+    <div class="centro"> 
+    
+    <h1 class= "centro">
+            SIS_ALUNO - SEMANA DE GESTÃO  E CADASTRO DE NOVOS ALUNOS.
+    </h1>
+               
+    <h2 class="centro">    
+            Faça o seu cadastro para entrar na melhor escola digital da cidade.
+    </h2>
+    <img src="matriz.png" alt="Educar"  width="460" height="445">
+
+    </div>
+    <div class="meio">
+    <form name="FCadAluno" action="cadastro.jsp" method="post">
+    <label for="tnome">Nome do Aluno:</label>
+    <input type="text" id="tnome" size="50" maxlength="30" placeholder="Digite aqui o seu nome..." required="true"/><br/><br/>
+    <label for="tprof">Nome do Responsável :</label>
+    <input type="text" id="tnome" size="50" maxlength="30" placeholder="Digite aqui o do responsável do aluno..." required="true"/><br/><br
+    <label for="tend">Endereço:</label>
+    <input type="text" id="tnome" size="50" maxlength="30" placeholder="Digite aqui o seu endereço..." required="true"/><br/><br/>
+    <label for="tmail">e-mail:</label>
+    <input type="text" id="tnome" size="50" maxlength="30" placeholder="Digite aqui o seu e-mail..." required="true"/><br/><br/>
+    <label for="tsenha">Senha:</label>
+    <input type="password" id="tsenha" size="20" maxlength="8" placeholder="Digite uma senha de até 8 caracteres"/><br/>
+    <br>
+    <label for="tsenha">Repita a Senha:</label>
+    <input type="password" id="tsenha" size="20" maxlength="8" placeholder="Digite novamente a senha."/><br/>
+    <br>
+    <label for="top">Gostaria de estudar na melhor escola digital da cidade ?:</label><br/>
+    <input type="radio" name="top" value="1" checked="checked"/>Sim<br/>
+    <input type="radio" name="top" value="2"/>Não<br/>
+    <label for="tcom"> Fale conosco.</label><br/>
+    <textarea rows="5" cols="15"></textarea>  <br/>
+    <input type="button" id="bmensagem" value="ok" onclick="alert('Cadastro realizado com sucesso!')"/>    
+    <input type="reset" id="blimpar" value="limpar"/>
+    <input type="submit" id="benviar" value="Enviar"/>
+    </div>
+
+       
+    
+    <h3 class="centro"> Artigos:  <a href=
+    " https://www.unoeste.br/Evento/infoeste2020 "> Conheça um pouco a respeito de nossa metodologia de estudos</a></h3>
+    <div class="centro">
+        <ul>
+            <li><a href="https://gitrush.com.br/html/7549561/section-vs-article-html5"> Artigo 1 </a>           
+            </li>
+            <li><a href="http://www.linhadecodigo.com.br/javascript.aspx">Artigo 2 </a> 
+        </ul>
+        
+    </div>
+    <p class="centro">
+        <a name="https://gitrush.com.br/html/7549561/section-vs-article-html5"> Artigo 1</a>
+Veja neste artigo quais são tendências de uma educação digital  de formação de pessoas com idéias modernas ,
+ utilizando as tecnologias como principal recurso.
+                                         <br/>
+<a href="#voltar">Voltar</a>
+
+
+
+    </p>
+        
+    
+    
+
+
+</body>
+</html>
